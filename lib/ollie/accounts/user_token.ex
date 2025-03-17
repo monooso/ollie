@@ -1,4 +1,6 @@
 defmodule Ollie.Accounts.UserToken do
+  @moduledoc false
+
   use Ecto.Schema
   import Ecto.Query
   alias Ollie.Accounts.UserToken

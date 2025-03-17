@@ -1,4 +1,8 @@
 defmodule OllieWeb.UserAuth do
+  @moduledoc """
+  Functions to help with authentication and session management.
+  """
+
   use OllieWeb, :verified_routes
 
   import Plug.Conn

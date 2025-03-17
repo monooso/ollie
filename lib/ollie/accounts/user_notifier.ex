@@ -1,4 +1,8 @@
 defmodule Ollie.Accounts.UserNotifier do
+  @moduledoc """
+  Functions to send account notification emails to users using the configured application mailer.
+  """
+
   import Swoosh.Email
 
   alias Ollie.Mailer
