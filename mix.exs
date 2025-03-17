@@ -56,7 +56,7 @@ defmodule Ollie.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 1.0.0"},
       {:swoosh, "~> 1.5"},
-      {:tailwind, "~> 0.2", runtime: Mix.env() == :dev},
+      {:tailwind, "~> 0.3", runtime: Mix.env() == :dev},
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"}
     ]
