@@ -1,3 +1,6 @@
 [tools]
 erlang = "27.2"
 elixir = "1.18.2"
+
+[env]
+_.file = ".env"
