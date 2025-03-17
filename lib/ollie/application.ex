@@ -11,8 +11,7 @@ defmodule Ollie.Application do
       OllieWeb.Telemetry,
       Ollie.Repo,
       {Ecto.Migrator,
-        repos: Application.fetch_env!(:ollie, :ecto_repos),
-        skip: skip_migrations?()},
+       repos: Application.fetch_env!(:ollie, :ecto_repos), skip: skip_migrations?()},
       {DNSCluster, query: Application.get_env(:ollie, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Ollie.PubSub},
       # Start the Finch HTTP client for sending emails
