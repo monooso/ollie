@@ -18,3 +18,11 @@ I also have a few things I don't care about—at least for now:
 3. Non-textual content (though images within articles are probably fine).
 4. OPML import.
 
+## Development
+Ollie is built with Phoenix, LiveView, SQLite, and Tailwind CSS. Refer to the documentation for those projects if you don't know how to get started.
+
+It uses Credo for static analysis, and enforces code quality via a Git "pre-push" hook. Configure your local Git repository to look in the `.githooks` directory for hooks, by setting the `core.hooksPath` config option:
+
+```sh
+git config core.hooksPath .githooks
+```
