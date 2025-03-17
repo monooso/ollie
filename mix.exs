@@ -33,6 +33,7 @@ defmodule Ollie.MixProject do
   defp deps do
     [
       {:bandit, "~> 1.5"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:dns_cluster, "~> 0.1.1"},
       {:ecto_sql, "~> 3.10"},
       {:ecto_sqlite3, ">= 0.0.0"},
